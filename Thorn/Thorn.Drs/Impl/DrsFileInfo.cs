@@ -10,7 +10,7 @@ namespace Thorn.Drs
 		{
 		}
 
-		#endregion
+        #endregion
 
 		#region IDrsFileInfo implementation
 

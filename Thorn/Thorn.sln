@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thorn", "Thorn.csproj", "{C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thorn.Drs", "Thorn.Drs\Thorn.Drs.csproj", "{114A2219-2734-4724-A098-22FD1FF8909B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thorn.Control", "Thorn.Control\Thorn.Control.csproj", "{E79EA107-49B1-4FC2-B752-164100519E4E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -19,6 +21,10 @@ Global
 		{C0C38D90-CB96-41E5-8C35-29A1D043D346}.Debug|x86.Build.0 = Debug|x86
 		{C0C38D90-CB96-41E5-8C35-29A1D043D346}.Release|x86.ActiveCfg = Release|x86
 		{C0C38D90-CB96-41E5-8C35-29A1D043D346}.Release|x86.Build.0 = Release|x86
+		{E79EA107-49B1-4FC2-B752-164100519E4E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E79EA107-49B1-4FC2-B752-164100519E4E}.Debug|x86.Build.0 = Debug|Any CPU
+		{E79EA107-49B1-4FC2-B752-164100519E4E}.Release|x86.ActiveCfg = Release|Any CPU
+		{E79EA107-49B1-4FC2-B752-164100519E4E}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Thorn.csproj

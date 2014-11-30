@@ -64,4 +64,14 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="Thorn.Drs\Thorn.Drs.csproj">
+      <Project>{114A2219-2734-4724-A098-22FD1FF8909B}</Project>
+      <Name>Thorn.Drs</Name>
+    </ProjectReference>
+    <ProjectReference Include="Thorn.Control\Thorn.Control.csproj">
+      <Project>{E79EA107-49B1-4FC2-B752-164100519E4E}</Project>
+      <Name>Thorn.Control</Name>
+    </ProjectReference>
+  </ItemGroup>
 </Project>

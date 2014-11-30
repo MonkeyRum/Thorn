@@ -17,7 +17,7 @@ public partial class MainWindow
 	
 	private global::Gtk.ScrolledWindow GtkScrolledWindow;
 	
-	private global::Gtk.TreeView treeview2;
+	private global::Gtk.TreeView treeview1;
 	
 	private global::Gtk.VSeparator vseparator1;
 	
@@ -62,19 +62,18 @@ public partial class MainWindow
 		this.hbox1.Spacing = 6;
 		// Container child hbox1.Gtk.Box+BoxChild
 		this.GtkScrolledWindow = new global::Gtk.ScrolledWindow ();
+		this.GtkScrolledWindow.WidthRequest = 180;
 		this.GtkScrolledWindow.Name = "GtkScrolledWindow";
 		this.GtkScrolledWindow.ShadowType = ((global::Gtk.ShadowType)(1));
 		// Container child GtkScrolledWindow.Gtk.Container+ContainerChild
-		this.treeview2 = new global::Gtk.TreeView ();
-		this.treeview2.WidthRequest = 175;
-		this.treeview2.CanFocus = true;
-		this.treeview2.Name = "treeview2";
-		this.GtkScrolledWindow.Add (this.treeview2);
+		this.treeview1 = new global::Gtk.TreeView ();
+		this.treeview1.CanFocus = true;
+		this.treeview1.Name = "treeview1";
+		this.GtkScrolledWindow.Add (this.treeview1);
 		this.hbox1.Add (this.GtkScrolledWindow);
 		global::Gtk.Box.BoxChild w4 = ((global::Gtk.Box.BoxChild)(this.hbox1 [this.GtkScrolledWindow]));
 		w4.Position = 0;
 		w4.Expand = false;
-		w4.Fill = false;
 		// Container child hbox1.Gtk.Box+BoxChild
 		this.vseparator1 = new global::Gtk.VSeparator ();
 		this.vseparator1.Name = "vseparator1";
@@ -112,5 +111,6 @@ public partial class MainWindow
 		this.Show ();
 		this.DeleteEvent += new global::Gtk.DeleteEventHandler (this.OnDeleteEvent);
 		this.OpenAction.Activated += new global::System.EventHandler (this.OnOpenActionActivated);
+		this.treeview1.CursorChanged += new global::System.EventHandler (this.OnTreeview1CursorChanged);
 	}
 }
