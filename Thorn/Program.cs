@@ -1,6 +1,5 @@
 ﻿using System;
 using Gtk;
-using Thorn.Drs.Helpers;
 
 namespace Thorn
 {
